@@ -1,0 +1,76 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.sw-nav-blue {
+  background-color: #337ab7;
+}
+
+.sw-text-white{
+  color: #fff;
+}
+
+.sw-text-yellow{
+  color: yellow;
+}
+
+.sw-text-red{
+  color: red;
+}
+
+.sw-borderless {
+  border-top: 0 none;
+  border-bottom: 0 none;
+  border-left: 0 none;
+  border-right: 0 none;
+}
+
+.sw-icon-padding {
+  padding-right: 15px;
+}
+
+.sw-text-black{
+  color: #000000;
+}
+
+.sw-icon-right{
+  position: absolute;
+  right: 15px;
+  padding: 7px;
+  border-bottom-left-radius: 10px;
+  background-color: #fff;
+}
+
+.sw-video-icon-right{
+  position: absolute;
+  right: 0px;
+  padding: 7px;
+  border-bottom-left-radius: 10px;
+  background-color: #fff;
+}
+
+.sw-link{
+  text-decoration : none !important;
+}
+
+.sw-button-transparent {
+  background-color: transparent;
+}
+
+.sw-icon-above {
+  z-index: 1;
+}
+
+.youtube-widget {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.youtube-widget iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
